@@ -81,8 +81,8 @@ const Footer = () => {
             </li>
           </ul>
           <ul className='footer-social-links'>
-            {socialLinksIcons.map(icon => (
-              <li>
+            {socialLinksIcons.map((icon, index) => (
+              <li key={index}>
                 <a href='#'>
                   <img src={icon} />
                 </a>

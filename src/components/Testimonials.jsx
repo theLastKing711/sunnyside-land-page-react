@@ -64,8 +64,8 @@ const Testimonials = () => {
             </h2>
         </header>
         <div className="testimonials-list">
-        {testimonialsList.map(testimonial => (
-            <Testimonial testemonial={testimonial} />
+        {testimonialsList.map((testimonial, index) => (
+            <Testimonial testemonial={testimonial} key={index} />
         ))}
         </div>
     </div>

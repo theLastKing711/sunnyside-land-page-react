@@ -35,8 +35,8 @@ const Illustrations = () => {
   return (
     <StyledIllustrations>
       <div className="illustrations-content">
-        {ilustrations.map(illustration => (
-          <Illustration illustration={illustration} />
+        {ilustrations.map((illustration, index) => (
+          <Illustration illustration={illustration} key={index}/>
         ))}
       </div>
        
