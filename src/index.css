@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+*, *::before, *::after {
+  box-sizing: border-box; 
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+:root {
+  --navy-blue: hsl(210, 4%, 67%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1,h2,h3,h4 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700, 900;
+}
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-size: 18px;
+}
