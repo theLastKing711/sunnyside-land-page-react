@@ -90,7 +90,6 @@ const Footer = () => {
             ))}
           </ul>
         </nav>
-        
       </div>
     </StyledFooter>
   )

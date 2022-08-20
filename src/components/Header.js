@@ -145,6 +145,7 @@ const StyledHeader = styled.header`
   }
 `;
 
+
 const Header = ({ isNavOpen, openMobileNavigation, closeMobileNavigation }) => {
   return (
     <StyledHeader isNavOpen={isNavOpen}>
